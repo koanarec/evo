@@ -1,7 +1,7 @@
 import random
 import math
 
-def mute(a):
+def mute(a):  # this is the mutation engine which mutates the creatues.
   number = len(a)-1
   while number != -1:
     for x in a:
@@ -11,10 +11,10 @@ def mute(a):
         a[number] = a[number] - 1
     number = number -1
     
-def fitness(x):
+def fitness(x):  # this is the objective function for the creatures.
   return (x[0]+x[1]+x[2])
 
-def largeche(cre):
+def largeche(cre):  # bad evo example
   totals = []
   for a in cre:
     totals.append([fitness(a),a])
