@@ -1,7 +1,7 @@
 import random
 import math
 
-def mute(a):  # this is the mutation engine which mutates the creatues.
+def mute(a):  # this is the mutation engine which mutates the creatures.
   number = len(a)-1
   while number != -1:
     for x in a:
