@@ -51,6 +51,6 @@ def go(x):
     print(cre)
     x = x -1
 
-go(1000)
+go(10)
 
 
